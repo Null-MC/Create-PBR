@@ -1,0 +1,3 @@
+model: create:block/large_cogwheel
+porosity:
+  value: 0.8

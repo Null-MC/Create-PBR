@@ -1,0 +1,8 @@
+model: create:block/crushing_wheel
+blend-mode: cutout
+height:
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
+normal:
+  method: sobel-low
+  strength: 2

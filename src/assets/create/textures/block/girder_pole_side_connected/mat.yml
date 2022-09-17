@@ -1,0 +1,38 @@
+texture-size: 32
+hcm:
+  value: 255
+filters:
+- name: single
+  left: 0.125
+  top: 0
+  width: 0.25
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.1
+- name: bottom
+  left: 0.625
+  top: 0
+  width: 0.25
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-x: 0.3
+  normal-radius-y: 0.1
+- name: top
+  left: 0.125
+  top: 0.5
+  width: 0.25
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.3
+  normal-radius-y: 0.1
+- name: middle
+  left: 0.625
+  top: 0.5
+  width: 0.25
+  height: 0.5
+  normal-curve-x: 90
+  normal-radius-x: 0.3

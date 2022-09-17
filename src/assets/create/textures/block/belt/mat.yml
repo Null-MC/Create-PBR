@@ -1,0 +1,12 @@
+texture-size: 16
+wrap-x: false
+model: create:block/belt/middle
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.3
+  radius-y: 0.1
+smooth:
+  value: 0.4
+f0:
+  value: 0.043

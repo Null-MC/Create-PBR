@@ -1,0 +1,6 @@
+texture-size: 32
+model: create:block/metal_girder/block_cross
+smooth:
+  value: 0.5
+hcm:
+  value: 255

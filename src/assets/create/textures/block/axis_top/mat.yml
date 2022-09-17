@@ -1,0 +1,16 @@
+texture-size: 16
+model: create:block/shaft
+smooth:
+  value: 0.5
+hcm:
+  value: 255
+filters:
+- name: center
+  left: 0.375
+  top: 0.375
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5

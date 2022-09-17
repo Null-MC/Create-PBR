@@ -1,0 +1,10 @@
+texture-size: 16
+model: create:block/metal_girder/block_pole
+normal:
+  method: sobel-high
+  strength: 2
+smooth:
+  value: 0.5
+hcm:
+  value: 255
+filters: []

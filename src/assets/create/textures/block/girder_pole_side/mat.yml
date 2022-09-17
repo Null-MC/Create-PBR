@@ -1,0 +1,12 @@
+texture-size: 16
+model: create:block/metal_girder/block_pole
+hcm:
+  value: 255
+filters:
+- name: default
+  left: 0.25
+  top: 0
+  width: 0.5
+  height: 1
+  normal-curve-x: 90
+  normal-radius-x: 0.3

@@ -1,0 +1,7 @@
+texture-width: 16
+texture-height: 32
+model: create:block/belt/middle
+smooth:
+  value: 0.4
+f0:
+  value: 0.042

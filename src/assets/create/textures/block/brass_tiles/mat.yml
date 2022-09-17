@@ -1,0 +1,7 @@
+normal:
+  method: sobel-low
+  strength: 2
+smooth:
+  value: 0.8
+hcm:
+  value: 255

@@ -1,0 +1,8 @@
+texture-size: 16
+normal:
+  curve-x: 90
+  radius-x: 0.7
+smooth:
+  value: 0.5
+hcm:
+  value: 234

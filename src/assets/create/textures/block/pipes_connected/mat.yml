@@ -1,0 +1,46 @@
+texture-size: 32
+smooth:
+  value: 0.5
+hcm:
+  value: 234
+filters:
+- name: north
+  left: 0
+  top: 0
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-top: 45
+- name: east
+  left: 0.25
+  top: 0
+  width: 0.25
+  height: 0.25
+  normal-curve-right: 45
+  normal-curve-y: 90
+- name: west
+  left: 0
+  top: 0.25
+  width: 0.25
+  height: 0.25
+  normal-curve-left: 45
+  normal-curve-y: 90
+- name: south
+  left: 0.25
+  top: 0.25
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+- name: vertical
+  left: 0
+  top: 0.5
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+- name: horizontal
+  left: 0.25
+  top: 0.5
+  width: 0.25
+  height: 0.25
+  normal-curve-y: 90

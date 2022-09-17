@@ -1,0 +1,5 @@
+blend-mode: cutout
+smooth:
+  value: 0.6
+hcm:
+  value: 255

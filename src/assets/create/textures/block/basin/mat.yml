@@ -1,0 +1,11 @@
+texture-size: 16
+model: create:block/basin/block
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.2
+  radius-y: 0.2
+smooth:
+  value: 0.5
+hcm:
+  value: 230

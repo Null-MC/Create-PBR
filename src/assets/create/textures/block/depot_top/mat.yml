@@ -1,0 +1,8 @@
+model: create:block/depot/block
+normal:
+  method: sobel-low
+  strength: 2
+smooth:
+  value: 0.6
+hcm:
+  value: 255

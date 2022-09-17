@@ -1,0 +1,21 @@
+name: Create PBR
+description: Simple PBR for Create mod.
+author: Joshua Miller
+input:
+  format: raw
+profiles:
+- edition: Java
+  format: 8
+  name: Create LabPbr
+  description: ''
+  tags: 16x LabPBR
+  encoding:
+    format: lab-1.3
+    opacity:
+      texture: none
+    color-red:
+      texture: none
+    color-green:
+      texture: none
+    color-blue:
+      texture: none

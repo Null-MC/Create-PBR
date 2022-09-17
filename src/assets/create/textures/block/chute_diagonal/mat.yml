@@ -1,0 +1,3 @@
+model: create:block/chute/block_diagonal
+hcm:
+  value: 230

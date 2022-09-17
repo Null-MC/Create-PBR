@@ -1,0 +1,3 @@
+model: create:block/blaze_burner/blaze/idle
+emissive:
+  scale: 0.3
