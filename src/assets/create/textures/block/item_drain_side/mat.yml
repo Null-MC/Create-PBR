@@ -1,1 +1,18 @@
-{}
+texture-size: 16
+wrap-x: false
+wrap-y: false
+model: create:block/item_drain
+blend-mode: cutout
+normal:
+  method: sobel-low
+  strength: 2
+filters:
+- name: default
+  left: 0
+  top: 0.1875
+  width: 1
+  height: 0.8125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.25

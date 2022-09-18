@@ -1,0 +1,13 @@
+name: Create PBR, Wood Tracks
+description: A small addon for Create PBR that has wooden train tracks.
+author: Joshua Miller
+input:
+  format: raw
+profiles:
+- edition: Java
+  format: 8
+  name: Create LabPbr Wood Tracks
+  description: ''
+  tags: 16x LabPBR
+  encoding:
+    format: lab-1.3

@@ -1,1 +1,9 @@
-{}
+texture-size: 16
+model: create:block/item_drain
+blend-mode: cutout
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.2
+  radius-y: 0.2
+  method: sobel-high
