@@ -1,105 +1,138 @@
 texture-size: 64
-model: create:block/fluid_tank/block_single
+normal:
+  method: sobel-low
+  strength: 2
 smooth:
   value: 0.5
 hcm:
   value: 234
 filters:
-- name: single
+- name: top-single
   left: 0
   top: 0
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.7
+  normal-radius-y: 0.2
+- name: top-left
+  left: 0.25
+  top: 0
+  width: 0.25
+  height: 0.25
+  normal-curve-left: 45
+  normal-curve-top: 45
+  normal-radius-x: 0.7
+  normal-radius-y: 0.2
+- name: top-center
+  left: 0.5
+  top: 0
+  width: 0.25
+  height: 0.25
+  normal-curve-top: 45
+  normal-radius-x: 0.7
+  normal-radius-y: 0.2
+- name: top-right
+  left: 0.75
+  top: 0
+  width: 0.25
+  height: 0.25
+  normal-curve-right: 45
+  normal-curve-top: 45
+  normal-radius-x: 0.7
+  normal-radius-y: 0.2
+- name: middle-single
+  left: 0
+  top: 0.25
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-radius-x: 0.7
+- name: middle-left
+  left: 0.25
+  top: 0.25
+  width: 0.25
+  height: 0.25
+  normal-curve-left: 45
+  normal-radius-x: 0.7
+- name: middle-center
+  left: 0.5
+  top: 0.25
+  width: 0.25
+  height: 0.25
+- name: middle-right
+  left: 0.75
+  top: 0.25
+  width: 0.25
+  height: 0.25
+  normal-curve-right: 45
+  normal-radius-x: 0.7
+- name: bottom-single
+  left: 0
+  top: 0.5
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-x: 0.7
+  normal-radius-y: 0.2
+- name: bottom-left
+  left: 0.25
+  top: 0.5
+  width: 0.25
+  height: 0.25
+  normal-curve-left: 45
+  normal-curve-bottom: 45
+  normal-radius-x: 0.7
+  normal-radius-y: 0.2
+- name: bottom-center
+  left: 0.5
+  top: 0.5
+  width: 0.25
+  height: 0.25
+  normal-curve-bottom: 45
+  normal-radius-y: 0.2
+- name: bottom-right
+  left: 0.75
+  top: 0.5
+  width: 0.25
+  height: 0.25
+  normal-curve-right: 45
+  normal-curve-bottom: 45
+  normal-radius-x: 0.7
+  normal-radius-y: 0.2
+- name: single-single
+  left: 0
+  top: 0.75
   width: 0.25
   height: 0.25
   normal-curve-x: 90
   normal-curve-y: 90
   normal-radius-x: 0.7
   normal-radius-y: 0.2
-- name: single-bottom
+- name: single-left
   left: 0.25
-  top: 0
+  top: 0.75
   width: 0.25
   height: 0.25
-  normal-curve-x: 90
-  normal-curve-bottom: 45
+  normal-curve-left: 45
+  normal-curve-y: 90
   normal-radius-x: 0.7
   normal-radius-y: 0.2
-- name: single-top
+- name: single-center
   left: 0.5
-  top: 0
+  top: 0.75
   width: 0.25
   height: 0.25
-  normal-curve-x: 90
-  normal-curve-top: 45
-  normal-radius-x: 0.7
+  normal-curve-y: 90
   normal-radius-y: 0.2
-- name: single-middle
+- name: single-right
   left: 0.75
-  top: 0
-  width: 0.25
-  height: 0.25
-  normal-curve-x: 90
-  normal-radius-x: 0.7
-- name: right
-  left: 0
-  top: 0.25
+  top: 0.75
   width: 0.25
   height: 0.25
   normal-curve-right: 45
-  normal-radius-x: 0.7
-- name: right-bottom
-  left: 0.25
-  top: 0.25
-  width: 0.25
-  height: 0.25
-  normal-curve-right: 45
-  normal-curve-bottom: 45
+  normal-curve-y: 90
   normal-radius-x: 0.7
   normal-radius-y: 0.2
-- name: right-top
-  left: 0.5
-  top: 0.25
-  width: 0.25
-  height: 0.25
-  normal-curve-right: 45
-  normal-curve-top: 45
-  normal-radius-x: 0.7
-  normal-radius-y: 0.2
-- name: right-middle
-  left: 0.75
-  top: 0.25
-  width: 0.25
-  height: 0.25
-  normal-curve-right: 45
-  normal-radius-x: 0.7
-- name: left
-  left: 0
-  top: 0.5
-  width: 0.25
-  height: 0.25
-  normal-curve-left: 45
-  normal-radius-x: 0.7
-- name: left-bottom
-  left: 0.25
-  top: 0.5
-  width: 0.25
-  height: 0.25
-  normal-curve-left: 45
-  normal-curve-bottom: 45
-  normal-radius-x: 0.7
-  normal-radius-y: 0.2
-- name: left-top
-  left: 0.5
-  top: 0.5
-  width: 0.25
-  height: 0.25
-  normal-curve-left: 45
-  normal-curve-top: 45
-  normal-radius-x: 0.7
-  normal-radius-y: 0.2
-- name: left-middle
-  left: 0.75
-  top: 0.5
-  width: 0.25
-  height: 0.25
-  normal-curve-left: 45
-  normal-radius-x: 0.7
