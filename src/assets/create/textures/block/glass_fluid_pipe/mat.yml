@@ -1,1 +1,14 @@
-{}
+wrap-x: false
+wrap-y: false
+model: create:block/fluid_pipe/window
+blend-mode: cutout
+normal:
+  method: sobel-low
+  strength: 2
+filters:
+- name: default
+  top: 0.5
+  width: 1
+  height: 0.5
+  normal-curve-y: 90
+  normal-radius-y: 0.5

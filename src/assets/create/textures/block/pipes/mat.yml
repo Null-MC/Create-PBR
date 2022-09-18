@@ -1,4 +1,18 @@
+texture-size: 32
+normal:
+  method: sobel-low
+  strength: 2
 smooth:
   value: 0.6
 hcm:
   value: 234
+filters:
+- name: 4-way
+  left: 0.0625
+  top: 0.6875
+  width: 0.3125
+  height: 0.3125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4

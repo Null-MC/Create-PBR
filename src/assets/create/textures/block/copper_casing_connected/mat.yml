@@ -1,1 +1,6 @@
-{}
+texture-size: 128
+wrap-x: false
+wrap-y: false
+normal:
+  method: sobel-low
+  strength: 2

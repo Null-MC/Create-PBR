@@ -1,4 +1,84 @@
+texture-size: 64
+wrap-x: false
+wrap-y: false
+normal:
+  method: sobel-low
+  strength: 2
 smooth:
   value: 0.6
 hcm:
   value: 234
+filters:
+- name: single
+  left: 0
+  top: 0.75
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: north-west
+  left: 0.25
+  top: 0
+  width: 0.25
+  height: 0.25
+  normal-curve-left: 45
+  normal-curve-top: 45
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: north
+  left: 0.5
+  top: 0
+  width: 0.25
+  height: 0.25
+  normal-curve-top: 45
+  normal-radius-y: 0.3
+- name: north-east
+  left: 0.75
+  top: 0
+  width: 0.25
+  height: 0.25
+  normal-curve-right: 45
+  normal-curve-top: 45
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: west
+  left: 0.25
+  top: 0.25
+  width: 0.25
+  height: 0.25
+  normal-curve-left: 45
+  normal-radius-x: 0.3
+- name: east
+  left: 0.75
+  top: 0.25
+  width: 0.25
+  height: 0.25
+  normal-curve-right: 45
+  normal-radius-x: 0.3
+- name: south-west
+  left: 0.25
+  top: 0.5
+  width: 0.25
+  height: 0.25
+  normal-curve-left: 45
+  normal-curve-bottom: 45
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: south
+  left: 0.5
+  top: 0.5
+  width: 0.25
+  height: 0.25
+  normal-curve-bottom: 45
+  normal-radius-y: 0.3
+- name: south-east
+  left: 0.75
+  top: 0.5
+  width: 0.25
+  height: 0.25
+  normal-curve-right: 45
+  normal-curve-bottom: 45
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3

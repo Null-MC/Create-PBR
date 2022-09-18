@@ -1,1 +1,26 @@
-{}
+texture-size: 32
+wrap-x: false
+wrap-y: false
+model: create:block/portable_fluid_interface/block
+normal:
+  method: sobel-low
+  strength: 2
+filters:
+- name: back
+  left: 0
+  top: 0.5625
+  width: 0.5
+  height: 0.4375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2
+- name: front
+  left: 0.53125
+  top: 0.5
+  width: 0.4375
+  height: 0.4375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2

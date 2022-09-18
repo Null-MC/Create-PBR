@@ -1,1 +1,3 @@
-{}
+normal:
+  method: sobel-low
+  strength: 2
