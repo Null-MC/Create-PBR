@@ -19,25 +19,39 @@ jobs:
           release_name: Release ${{ github.run_number }}
           draft: true
 
-  publish_labPbr_16x:
-    name: Publish LabPbr-16x
+  publish_labPbr:
+    name: Publish LabPbr
     runs-on: ubuntu-latest
     needs: [prepare_release]
-    env:
-      release_filename: Create-LabPbr-16x-v${{ github.run_number }}.zip
     steps:
       - uses: actions/checkout@v2
-      - name: Compile LabPbr-16x
+      - name: Compile LabPbr
         uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: src/LabPbr-16x.pack.yml
-          zip: ${{ env.release_filename }}
-      - name: Release LabPbr-16x
+          project: src/project.yml
+          profile: Create LabPbr
+          zip: Create-LabPbr-v${{ github.run_number }}.zip
+      - name: Release LabPbr
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./${{ env.release_filename }}
-          asset_name: ${{ env.release_filename }}
+          asset_path: ./Create-LabPbr-v${{ github.run_number }}.zip
+          asset_name: Create-LabPbr-v${{ github.run_number }}.zip
+          asset_content_type: application/zip
+      - name: Compile LabPbr WoodTracks
+        uses: null511/PixelGraph.GitHubAction@main
+        with:
+          project: src-wood-track/project.yml
+          profile: Create LabPbr Wood Tracks
+          zip: Create-LabPbr-WoodTracks-v${{ github.run_number }}.zip
+      - name: Release LabPbr-WoodTracks
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ needs.prepare_release.outputs.upload_url }}
+          asset_path: ./Create-LabPbr-WoodTracks-v${{ github.run_number }}.zip
+          asset_name: Create-LabPbr-WoodTracks-v${{ github.run_number }}.zip
           asset_content_type: application/zip

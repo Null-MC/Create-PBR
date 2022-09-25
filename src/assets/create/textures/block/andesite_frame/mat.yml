@@ -6,7 +6,7 @@ normal:
   radius-y: 0.2
   method: sobel-low
   strength: 2
-f0:
-  value: 0.04
+hcm:
+  value: 255
 porosity:
   value: 0.6

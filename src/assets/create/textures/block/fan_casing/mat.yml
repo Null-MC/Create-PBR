@@ -1,3 +1,4 @@
+model: create:block/encased_fan/block
 blend-mode: cutout
 normal:
   curve-x: 90
@@ -8,7 +9,7 @@ normal:
   strength: 1.8
 smooth:
   value: 0.45
-f0:
-  value: 0.04
+hcm:
+  value: 255
 porosity:
   value: 0.6

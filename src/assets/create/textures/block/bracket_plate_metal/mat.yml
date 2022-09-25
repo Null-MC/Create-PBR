@@ -1,12 +1,12 @@
+texture-size: 16
 wrap-x: false
 wrap-y: false
-texture-size: 16
 model: create:block/bracket/shaft/ground_metal
 blend-mode: cutout
 smooth:
   value: 0.5
 hcm:
-  value: 230
+  value: 255
 filters:
 - name: up
   left: 0

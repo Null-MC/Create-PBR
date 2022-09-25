@@ -1,1 +1,3 @@
-{}
+texture-size: 32
+model: create:block/cuckoo_clock/block
+blend-mode: cutout

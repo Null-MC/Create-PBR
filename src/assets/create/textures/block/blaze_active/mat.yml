@@ -1,2 +1,3 @@
+model: create:block/blaze_burner/blaze/active
 emissive:
   value: 0.6

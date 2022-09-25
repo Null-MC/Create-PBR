@@ -1,3 +1,4 @@
+model: create:block/steam_engine/block
 smooth:
   value: 0.5
 hcm:

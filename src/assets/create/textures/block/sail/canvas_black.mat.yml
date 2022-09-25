@@ -1,1 +1,8 @@
+texture-size: 16
 model: create:block/black_sail
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.3
+  radius-y: 0.3
+  noise: 4

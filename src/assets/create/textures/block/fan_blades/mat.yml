@@ -1,3 +1,4 @@
+model: create:block/encased_fan/propeller
 blend-mode: cutout
 height:
   texture: opacity.png

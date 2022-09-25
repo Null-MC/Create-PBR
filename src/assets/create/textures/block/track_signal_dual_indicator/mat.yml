@@ -1,1 +1,3 @@
-{}
+model: create:block/track_overlay/signal_dual
+hcm:
+  value: 255

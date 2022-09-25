@@ -1,1 +1,4 @@
-{}
+smooth:
+  value: 0.5
+hcm:
+  value: 234

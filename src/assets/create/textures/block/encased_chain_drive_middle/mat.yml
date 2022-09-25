@@ -1,1 +1,8 @@
-{}
+texture-size: 16
+wrap-x: false
+normal:
+  curve-y: 90
+  radius-y: 0.2
+  method: sobel-low
+  strength: 2
+filters: []

@@ -3,7 +3,7 @@ model: create:block/basin/block
 smooth:
   value: 0.5
 hcm:
-  value: 230
+  value: 255
 filters:
 - name: basin
   left: 0
