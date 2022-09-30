@@ -1,1 +1,29 @@
+texture-size: 16
 model: create:block/hose_pulley/rope
+f0:
+  value: 0.067
+filters:
+- name: 1
+  left: 0
+  top: 0
+  width: 0.25
+  height: 1
+  normal-curve-x: 90
+- name: 2
+  left: 0.25
+  top: 0
+  width: 0.25
+  height: 1
+  normal-curve-x: 90
+- name: 3
+  left: 0.5
+  top: 0
+  width: 0.25
+  height: 1
+  normal-curve-x: 90
+- name: 4
+  left: 0.75
+  top: 0
+  width: 0.25
+  height: 1
+  normal-curve-x: 90

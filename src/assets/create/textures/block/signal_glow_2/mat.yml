@@ -1,1 +1,45 @@
-{}
+texture-size: 16
+model: create:block/track_signal/yellow_tube
+smooth:
+  value: 0.9
+f0:
+  value: 0.04
+emissive:
+  value: 0.8
+filters:
+- name: white-top
+  left: 0.1875
+  top: 0
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.6
+  normal-radius-y: 0.6
+- name: white-side
+  left: 0.1875
+  top: 0.4375
+  width: 0.375
+  height: 0.5625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.6
+  normal-radius-y: 0.4
+- name: red-top
+  left: 0.625
+  top: 0
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.6
+  normal-radius-y: 0.6
+- name: red-side
+  left: 0.625
+  top: 0.4375
+  width: 0.375
+  height: 0.5625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.6
+  normal-radius-y: 0.4

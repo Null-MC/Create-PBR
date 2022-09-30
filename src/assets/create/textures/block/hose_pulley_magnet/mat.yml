@@ -3,6 +3,8 @@ model: create:block/hose_pulley/pulley_magnet
 normal:
   method: sobel-low
   strength: 2
+f0:
+  value: 0.067
 filters:
 - name: hose
   left: 0.75

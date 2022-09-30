@@ -1,1 +1,22 @@
-{}
+texture-size: 16
+model: create:block/mechanical_pump/block
+normal:
+  method: sobel-low
+filters:
+- name: small-side
+  left: 0.75
+  top: 0.25
+  width: 0.25
+  height: 0.625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-y: 0.6
+- name: large-end
+  left: 0
+  top: 0
+  width: 0.75
+  height: 0.75
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.25
+  normal-radius-y: 0.25

@@ -16,3 +16,9 @@ filters:
   normal-curve-y: 90
   normal-radius-x: 0.4
   normal-radius-y: 0.4
+- name: pipe
+  left: 0
+  top: 0
+  width: 0.25
+  height: 0.625
+  normal-curve-x: 90

@@ -1,1 +1,31 @@
+texture-size: 16
 model: create:block/placard
+normal:
+  method: sobel-low
+  strength: 2
+filters:
+- name: brass
+  left: 0
+  top: 0
+  width: 0.75
+  height: 0.75
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2
+- name: vertical
+  left: 0.8125
+  top: 0
+  width: 0.1875
+  height: 0.75
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-y: 0.3
+- name: horizontal
+  left: 0
+  top: 0.8125
+  width: 0.75
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
