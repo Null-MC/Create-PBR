@@ -1,4 +1,6 @@
 texture-size: 16
+wrap-x: false
+wrap-y: false
 model: create:block/brass_funnel_vertical_push
 smooth:
   value: 0.4

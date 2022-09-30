@@ -1,1 +1,17 @@
+wrap-x: false
+wrap-y: false
 model: create:block/andesite_funnel_horizontal_push
+blend-mode: cutout
+normal:
+  method: sobel-low
+  strength: 2
+filters:
+- name: top-side
+  left: 0
+  top: 0
+  width: 0.75
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-x: 0.25
+  normal-radius-y: 0.6

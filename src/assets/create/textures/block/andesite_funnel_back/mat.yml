@@ -1,1 +1,25 @@
+texture-size: 32
+wrap-x: false
+wrap-y: false
 model: create:block/andesite_funnel_horizontal_push
+normal:
+  method: sobel-low
+  strength: 2
+f0:
+  value: 0.042
+filters:
+- name: back
+  left: 0.375
+  top: 0.5
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2
+- name: flap
+  left: 0.78125
+  top: 0.53125
+  width: 0.09375
+  height: 0.40625
+  normal-curve-x: 90

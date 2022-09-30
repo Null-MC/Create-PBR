@@ -1,3 +1,5 @@
+wrap-x: false
+wrap-y: false
 blend-mode: cutout
 smooth:
   value: 0.6

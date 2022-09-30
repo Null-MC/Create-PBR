@@ -1,4 +1,6 @@
 texture-size: 32
+wrap-x: false
+wrap-y: false
 model: create:block/brass_funnel_horizontal_push
 normal:
   method: sobel-low
