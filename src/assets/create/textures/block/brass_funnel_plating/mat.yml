@@ -1,1 +1,35 @@
-{}
+model: create:block/brass_belt_funnel_retracted
+normal:
+  method: sobel-high
+  strength: 2
+smooth:
+  value: 0.5
+hcm:
+  value: 255
+filters:
+- name: back
+  left: 0.5625
+  top: 0.0625
+  width: 0.375
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.25
+  normal-radius-y: 0.2
+- name: front-top
+  left: 0
+  top: 0
+  width: 0.5
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.4
+- name: front-bottom
+  left: 0
+  top: 0.1875
+  width: 0.5
+  height: 0.46875
+  tile: false
+  normal-curve-x: 90
+  normal-radius-x: 0.2

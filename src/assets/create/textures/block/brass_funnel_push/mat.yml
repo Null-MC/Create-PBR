@@ -1,1 +1,27 @@
+texture-size: 16
 model: create:block/brass_funnel_horizontal_push
+normal:
+  method: sobel-high
+smooth:
+  value: 0.5
+hcm:
+  value: 255
+filters:
+- name: short
+  left: 0
+  top: 0
+  width: 1
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.4
+- name: tall
+  left: 0
+  top: 0.375
+  width: 1
+  height: 0.375
+  normal-curve-left: 45
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.4

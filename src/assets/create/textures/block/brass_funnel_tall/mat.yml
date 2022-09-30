@@ -1,1 +1,14 @@
-{}
+texture-size: 16
+wrap-x: false
+wrap-y: false
+model: create:block/brass_belt_funnel_retracted
+filters:
+- name: top-side
+  left: 0
+  top: 0
+  width: 1
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-x: 0.2
+  normal-radius-y: 0.6
