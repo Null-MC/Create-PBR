@@ -1,1 +1,12 @@
-{}
+normal:
+  method: sobel-high
+filters:
+- name: default
+  left: 0
+  top: 0.25
+  width: 1
+  height: 0.75
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.25

@@ -1,1 +1,13 @@
 model: create:block/mechanical_press/block
+normal:
+  method: sobel-low
+filters:
+- name: default
+  left: 0
+  top: 0
+  width: 1
+  height: 0.875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.22

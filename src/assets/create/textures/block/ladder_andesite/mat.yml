@@ -1,3 +1,4 @@
+model: create:block/andesite_ladder
 blend-mode: cutout
 height:
   edge-fade-x: 0.01
@@ -6,7 +7,7 @@ normal:
   strength: 1.3
 smooth:
   value: 0.45
-f0:
-  value: 0.04
+hcm:
+  value: 255
 porosity:
   value: 0.6

@@ -1,3 +1,4 @@
+model: create:block/brass_ladder
 blend-mode: cutout
 smooth:
   value: 0.6

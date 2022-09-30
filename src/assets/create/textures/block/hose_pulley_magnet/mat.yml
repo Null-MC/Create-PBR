@@ -1,1 +1,12 @@
-{}
+texture-size: 16
+model: create:block/hose_pulley/pulley_magnet
+normal:
+  method: sobel-low
+  strength: 2
+filters:
+- name: hose
+  left: 0.75
+  top: 0
+  width: 0.25
+  height: 1
+  normal-curve-x: 90

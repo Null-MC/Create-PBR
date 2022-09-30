@@ -1,1 +1,6 @@
-{}
+model: create:block/mechanical_saw/blade_horizontal_active
+blend-mode: cutout
+smooth:
+  value: 0.7
+hcm:
+  value: 230

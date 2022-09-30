@@ -1,3 +1,4 @@
+model: create:block/copper_ladder
 blend-mode: cutout
 height:
   edge-fade-x: 0.01
