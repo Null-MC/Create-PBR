@@ -1,7 +1,10 @@
 wrap-x: false
 wrap-y: false
 blend-mode: cutout
+normal:
+  noise: 0.5
+  method: sobel-low
 smooth:
-  value: 0.6
+  value: 0.5
 hcm:
-  value: 230
+  value: 255

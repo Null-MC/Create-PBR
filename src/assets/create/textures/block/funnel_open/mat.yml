@@ -1,7 +1,7 @@
 wrap-x: false
 wrap-y: false
 blend-mode: cutout
-smooth:
-  value: 0.6
+normal:
+  method: sobel-low
 hcm:
-  value: 230
+  value: 255

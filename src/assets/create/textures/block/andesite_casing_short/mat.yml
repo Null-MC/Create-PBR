@@ -1,3 +1,5 @@
+wrap-x: false
+wrap-y: false
 normal:
   method: sobel-high
 filters:
