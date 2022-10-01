@@ -1,4 +1,6 @@
 texture-size: 16
+wrap-x: false
+wrap-y: false
 model: create:block/mechanical_bearing
 normal:
   method: sobel-low

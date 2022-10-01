@@ -1,1 +1,16 @@
+texture-size: 16
+wrap-x: false
+wrap-y: false
 model: create:block/clockwork_bearing
+normal:
+  method: sobel-low
+filters:
+- name: side
+  left: 0
+  top: 0.25
+  width: 1
+  height: 0.75
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.25
