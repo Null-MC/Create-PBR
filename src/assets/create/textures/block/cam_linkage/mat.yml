@@ -1,4 +1,56 @@
+texture-size: 32
+wrap-x: false
+wrap-y: false
+model: create:block/steam_engine/item
 smooth:
   value: 0.5
 hcm:
   value: 255
+filters:
+- name: -north
+  left: 0.53125
+  top: 0.6875
+  width: 0.125
+  height: 0.1875
+- name: -west
+  left: 0.65625
+  top: 0.6875
+  width: 0.25
+  height: 0.1875
+- name: -north
+  left: 0.09375
+  top: 0.0625
+  width: 0.125
+  height: 0.3125
+  normal-curve-x: 90
+- name: -up
+  left: 0.25
+  top: 0.21875
+  width: 0.1875
+  height: 0.1875
+- name: -north
+  left: 0.25
+  top: 0.40625
+  width: 0.1875
+  height: 0.59375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-y: 0.2
+- name: -west
+  left: 0.0625
+  top: 0.40625
+  width: 0.1875
+  height: 0.59375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-y: 0.2
+- name: -north
+  left: 0.59375
+  top: 0.09375
+  width: 0.09375
+  height: 0.1875
+- name: -west
+  left: 0.6875
+  top: 0.09375
+  width: 0.1875
+  height: 0.1875

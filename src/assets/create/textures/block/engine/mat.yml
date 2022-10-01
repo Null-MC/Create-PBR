@@ -1,5 +1,69 @@
+texture-size: 32
 model: create:block/steam_engine/block
-smooth:
-  value: 0.5
+normal:
+  method: sobel-high
+  strength: 2
 hcm:
   value: 234
+filters:
+- name: base-down
+  left: 0.53125
+  top: 0.53125
+  width: 0.4375
+  height: 0.4375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: side-bottom
+  left: 0.03125
+  top: 0.40625
+  width: 0.4375
+  height: 0.09375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+- name: side-top
+  left: 0.09375
+  top: 0.03125
+  width: 0.3125
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.5
+  normal-radius-y: 0.3
+- name: top-up
+  left: 0.40625
+  top: 0
+  width: 0.3125
+  height: 0.3125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
+- name: outlet-front
+  left: 0.71875
+  top: 0.0625
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
+- name: base-up
+  left: 0.03125
+  top: 0.53125
+  width: 0.4375
+  height: 0.4375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: outlet-side
+  left: 0.71875
+  top: 0
+  width: 0.25
+  height: 0.0625
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-x: 0.5

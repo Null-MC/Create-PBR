@@ -1,1 +1,9 @@
-{}
+wrap-x: false
+wrap-y: false
+model: create:block/bearing/top
+height:
+  scale: 0
+normal:
+  method: sobel-low
+f0:
+  value: 0.03
