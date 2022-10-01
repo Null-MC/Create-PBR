@@ -1,1 +1,5 @@
-{}
+normal:
+  curve-x: 90
+  radius-x: 0.2
+  method: sobel3
+  strength: 2
