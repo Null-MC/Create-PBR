@@ -59,8 +59,8 @@ jobs:
         uses: itsmeow/curseforge-upload@v3
         #if: github.event.inputs.publish_curseforge == 'true'
         with:
-          display_name: Create Wood-Tracks LabPBR v${{ github.run_number }}
-          file_path: Create-WoodTracks-LabPBR-v${{ github.run_number }}.zip
+          display_name: Create LabPBR Wood-Tracks v${{ github.run_number }}
+          file_path: Create-LabPBR-WoodTracks-v${{ github.run_number }}.zip
           changelog: "###Release ${{ github.run_number }}\n..."
           release_type: release
           project_id: 682954
