@@ -5,7 +5,7 @@ smooth:
 f0:
   value: 0.04
 emissive:
-  value: 0.8
+  value: 0.4
 filters:
 - name: white-top
   left: 0.1875

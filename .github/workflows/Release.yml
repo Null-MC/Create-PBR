@@ -25,33 +25,57 @@ jobs:
     needs: [prepare_release]
     steps:
       - uses: actions/checkout@v2
-      - name: Compile LabPbr
+      - name: Compile LabPBR
         uses: null511/PixelGraph.GitHubAction@main
         with:
           project: src/project.yml
-          profile: Create LabPbr
-          zip: Create-LabPbr-v${{ github.run_number }}.zip
-      - name: Release LabPbr
+          profile: Create LabPBR
+          zip: Create-LabPBR-v${{ github.run_number }}.zip
+      - name: Release LabPBR
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./Create-LabPbr-v${{ github.run_number }}.zip
-          asset_name: Create-LabPbr-v${{ github.run_number }}.zip
+          asset_path: ./Create-LabPBR-v${{ github.run_number }}.zip
+          asset_name: Create-LabPBR-v${{ github.run_number }}.zip
           asset_content_type: application/zip
-      - name: Compile LabPbr WoodTracks
+      - name: Compile LabPBR WoodTracks
         uses: null511/PixelGraph.GitHubAction@main
         with:
           project: src-wood-track/project.yml
-          profile: Create LabPbr Wood Tracks
-          zip: Create-LabPbr-WoodTracks-v${{ github.run_number }}.zip
-      - name: Release LabPbr-WoodTracks
+          profile: Create LabPBR Wood Tracks
+          zip: Create-LabPBR-WoodTracks-v${{ github.run_number }}.zip
+      - name: Release LabPBR-WoodTracks
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./Create-LabPbr-WoodTracks-v${{ github.run_number }}.zip
-          asset_name: Create-LabPbr-WoodTracks-v${{ github.run_number }}.zip
+          asset_path: ./Create-LabPBR-WoodTracks-v${{ github.run_number }}.zip
+          asset_name: Create-LabPBR-WoodTracks-v${{ github.run_number }}.zip
           asset_content_type: application/zip
+      - name: Publish Wood-Tracks LabPBR to CurseForge
+        uses: itsmeow/curseforge-upload@v3
+        #if: github.event.inputs.publish_curseforge == 'true'
+        with:
+          display_name: Create Wood-Tracks LabPBR v${{ github.run_number }}
+          file_path: Create-WoodTracks-LabPBR-v${{ github.run_number }}.zip
+          changelog: "###Release ${{ github.run_number }}\n..."
+          release_type: release
+          project_id: 682954
+          game_endpoint: minecraft
+          game_versions: "9366,9259,9186,9008,8857,8830,8203"
+          token: ${{ secrets.CF_API_TOKEN }}
+      - name: Publish LabPBR to CurseForge
+        uses: itsmeow/curseforge-upload@v3
+        #if: github.event.inputs.publish_curseforge == 'true'
+        with:
+          display_name: Create LabPBR v${{ github.run_number }}
+          file_path: Create-LabPBR-v${{ github.run_number }}.zip
+          changelog: "###Release ${{ github.run_number }}\n..."
+          release_type: release
+          project_id: 682954
+          game_endpoint: minecraft
+          game_versions: "9366,9259,9186,9008,8857,8830,8203"
+          token: ${{ secrets.CF_API_TOKEN }}
