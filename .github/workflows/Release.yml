@@ -62,7 +62,7 @@ jobs:
           display_name: Create LabPBR Wood-Tracks v${{ github.run_number }}
           file_path: Create-LabPBR-WoodTracks-v${{ github.run_number }}.zip
           changelog: "###Release ${{ github.run_number }}\n..."
-          release_type: release
+          release_type: beta
           project_id: 682954
           game_endpoint: minecraft
           game_versions: "9366,9259,9186,9008,8857,8830,8203"
@@ -74,7 +74,7 @@ jobs:
           display_name: Create LabPBR v${{ github.run_number }}
           file_path: Create-LabPBR-v${{ github.run_number }}.zip
           changelog: "###Release ${{ github.run_number }}\n..."
-          release_type: release
+          release_type: beta
           project_id: 682954
           game_endpoint: minecraft
           game_versions: "9366,9259,9186,9008,8857,8830,8203"
