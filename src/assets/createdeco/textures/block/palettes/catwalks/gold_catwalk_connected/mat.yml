@@ -1,0 +1,10 @@
+texture-size: 128
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+normal:
+  noise: 2
+  method: sobel-low
+  strength: 0.5
+hcm:
+  value: 231

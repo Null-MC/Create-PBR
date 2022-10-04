@@ -1,1 +1,22 @@
-{}
+model: create:block/steam_engine/gauge
+normal:
+  method: sobel-low
+  strength: 2
+filters:
+- name: front
+  left: 0
+  top: 0
+  width: 0.625
+  height: 0.625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: side
+  left: 0.6875
+  top: 0
+  width: 0.125
+  height: 0.625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-y: 0.3

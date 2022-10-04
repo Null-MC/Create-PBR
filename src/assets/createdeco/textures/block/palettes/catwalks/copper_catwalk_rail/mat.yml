@@ -1,0 +1,27 @@
+wrap-y: false
+blend-mode: cutout
+filters:
+- name: top
+  left: 0
+  top: 0
+  width: 1
+  height: 0.125
+  normal-curve-y: 60
+- name: side
+  left: 0
+  top: 0.125
+  width: 1
+  height: 0.125
+  normal-curve-y: 60
+- name: support-1
+  left: 0.1875
+  top: 0.25
+  width: 0.125
+  height: 0.75
+  normal-curve-x: 60
+- name: support-2
+  left: 0.75
+  top: 0.25
+  width: 0.125
+  height: 0.75
+  normal-curve-x: 60

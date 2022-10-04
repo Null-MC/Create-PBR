@@ -6,7 +6,7 @@ input:
 profiles:
 - edition: Java
   format: 8
-  name: Create LabPbr
+  name: Create LabPBR
   description: ''
   tags: 16x LabPBR
   encoding:
@@ -19,3 +19,22 @@ profiles:
       texture: none
     color-blue:
       texture: none
+  block-texture-size: 16
+  item-texture-size: 16
+- edition: Java
+  format: 8
+  name: Create OldPBR
+  description: ''
+  tags: 16x OldPBR
+  encoding:
+    format: old-pbr
+    opacity:
+      texture: none
+    color-red:
+      texture: none
+    color-green:
+      texture: none
+    color-blue:
+      texture: none
+  block-texture-size: 16
+  item-texture-size: 16

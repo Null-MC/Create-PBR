@@ -1,1 +1,47 @@
+texture-size: 32
+wrap-x: false
+wrap-y: false
 model: create:block/flywheel/block
+normal:
+  method: sobel-high
+  strength: 2
+smooth:
+  value: 0.6
+hcm:
+  value: 255
+filters:
+- name: wheel-outside
+  left: 0
+  top: 0
+  width: 0.5625
+  height: 0.1875
+  normal-curve-x: 45
+  normal-curve-y: 90
+  normal-radius-y: 0.65
+- name: wheel-top
+  left: 0
+  top: 0.1875
+  width: 0.5625
+  height: 0.15625
+  normal-curve-y: 90
+  normal-radius-y: 0.65
+- name: spoke-front
+  left: 0.5625
+  top: 0
+  width: 0.125
+  height: 0.3125
+  normal-curve-x: 90
+- name: spoke-side
+  left: 0.6875
+  top: 0
+  width: 0.125
+  height: 0.3125
+  normal-curve-x: 90
+- name: wheel-inside
+  left: 0.0625
+  top: 0.34375
+  width: 0.4375
+  height: 0.1875
+  normal-curve-x: -45
+  normal-curve-y: 90
+  normal-radius-y: 0.65

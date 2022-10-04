@@ -1,0 +1,6 @@
+texture-size: 128
+blend-mode: cutout
+smooth:
+  value: 0.62
+hcm:
+  value: 255

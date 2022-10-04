@@ -6,8 +6,15 @@ input:
 profiles:
 - edition: Java
   format: 8
-  name: Create LabPbr Wood Tracks
+  name: Create LabPBR Wood Tracks
   description: ''
   tags: 16x LabPBR
   encoding:
     format: lab-1.3
+- edition: Java
+  format: 8
+  name: Create OldPBR Wood Tracks
+  description: ''
+  tags: 16x OldPBR
+  encoding:
+    format: old-pbr
