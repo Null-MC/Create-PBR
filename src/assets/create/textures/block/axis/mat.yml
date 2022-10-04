@@ -3,7 +3,7 @@ model: create:block/shaft
 smooth:
   value: 0.5
 hcm:
-  value: 255
+  value: 232
 filters:
 - name: default
   left: 0.375

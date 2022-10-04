@@ -1,1 +1,18 @@
-{}
+wrap-x: false
+wrap-y: false
+model: create:block/orange_seat
+normal:
+  noise: 2
+  method: sobel-high
+  strength: 2
+filters:
+- name: default
+  left: 0
+  top: 0.5
+  width: 1
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.25
+  normal-radius-top: 0.5
+  normal-radius-bottom: 0.25

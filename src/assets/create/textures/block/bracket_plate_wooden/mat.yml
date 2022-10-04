@@ -1,1 +1,26 @@
-{}
+texture-size: 16
+wrap-x: false
+wrap-y: false
+model: create:block/bracket/shaft/ground_wooden
+filters:
+- name: up
+  left: 0
+  top: 0.125
+  width: 0.875
+  height: 0.875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.15
+  normal-radius-y: 0.15
+- name: bolt-1
+  left: 0.875
+  top: 0.5
+  width: 0.0625
+  height: 0.5
+  normal-curve-x: 90
+- name: bolt-2
+  left: 0.9375
+  top: 0.5
+  width: 0.0625
+  height: 0.5
+  normal-curve-x: 90

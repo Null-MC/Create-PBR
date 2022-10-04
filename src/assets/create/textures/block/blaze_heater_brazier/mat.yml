@@ -1,2 +1,42 @@
+texture-size: 32
 model: create:block/blaze_burner/block
 blend-mode: cutout
+normal:
+  noise: 2
+  method: sobel-high
+  strength: 2
+filters:
+- name: side
+  left: 0.03125
+  top: 0.15625
+  width: 0.4375
+  height: 0.34375
+  normal-curve-x: 90
+  normal-radius-x: 0.4
+- name: seat
+  left: 0.59375
+  top: 0.09375
+  width: 0.3125
+  height: 0.3125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
+- name: base-side
+  left: 0.5625
+  top: 0.5
+  width: 0.375
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.6
+- name: base-bottom
+  left: 0.5625
+  top: 0.625
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
