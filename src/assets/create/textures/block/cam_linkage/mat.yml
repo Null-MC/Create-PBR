@@ -2,6 +2,8 @@ texture-size: 32
 wrap-x: false
 wrap-y: false
 model: create:block/steam_engine/item
+normal:
+  method: sobel-high
 smooth:
   value: 0.5
 hcm:
