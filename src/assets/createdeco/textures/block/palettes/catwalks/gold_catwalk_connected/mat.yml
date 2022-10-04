@@ -3,7 +3,7 @@ wrap-x: false
 wrap-y: false
 blend-mode: cutout
 normal:
-  noise: 2
+  noise: 1
   method: sobel-low
   strength: 0.5
 hcm:

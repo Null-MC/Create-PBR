@@ -1,1 +1,12 @@
-{}
+texture-size: 128
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+normal:
+  noise: 4
+  method: sobel-low
+  strength: 0.5
+smooth:
+  value: 0.55
+hcm:
+  value: 235
