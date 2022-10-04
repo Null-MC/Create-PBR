@@ -1,1 +1,44 @@
-{}
+texture-size: 16
+normal:
+  noise: 3
+smooth:
+  value: 0.46
+hcm:
+  value: 235
+filters:
+- name: single-1
+  left: 0
+  top: 0
+  width: 0.25
+  height: 1
+  normal-curve-x: 60
+  normal-curve-y: 60
+  normal-radius-x: 0.5
+  normal-radius-y: 0.2
+- name: single-2
+  left: 0.25
+  top: 0
+  width: 0.25
+  height: 1
+  normal-curve-x: 60
+  normal-curve-y: 60
+  normal-radius-x: 0.5
+  normal-radius-y: 0.2
+- name: single-3
+  left: 0.5
+  top: 0
+  width: 0.25
+  height: 1
+  normal-curve-x: 60
+  normal-curve-y: 60
+  normal-radius-x: 0.5
+  normal-radius-y: 0.2
+- name: single-4
+  left: 0.75
+  top: 0
+  width: 0.25
+  height: 1
+  normal-curve-x: 60
+  normal-curve-y: 60
+  normal-radius-x: 0.5
+  normal-radius-y: 0.2

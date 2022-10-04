@@ -4,33 +4,22 @@ wrap-y: false
 model: create:block/steam_engine/item
 normal:
   method: sobel-high
-smooth:
-  value: 0.5
 hcm:
   value: 255
 filters:
-- name: -north
-  left: 0.53125
-  top: 0.6875
-  width: 0.125
-  height: 0.1875
-- name: -west
-  left: 0.65625
-  top: 0.6875
-  width: 0.25
-  height: 0.1875
-- name: -north
+- name: idk
   left: 0.09375
   top: 0.0625
   width: 0.125
   height: 0.3125
   normal-curve-x: 90
-- name: -up
+- name: shaft-up
   left: 0.25
   top: 0.21875
   width: 0.1875
   height: 0.1875
-- name: -north
+  normal-curve-y: 90
+- name: shaft-north
   left: 0.25
   top: 0.40625
   width: 0.1875
@@ -38,7 +27,7 @@ filters:
   normal-curve-x: 90
   normal-curve-top: 45
   normal-radius-y: 0.2
-- name: -west
+- name: shaft-west
   left: 0.0625
   top: 0.40625
   width: 0.1875
@@ -46,13 +35,61 @@ filters:
   normal-curve-x: 90
   normal-curve-top: 45
   normal-radius-y: 0.2
-- name: -north
+- name: offset-north
   left: 0.59375
   top: 0.09375
   width: 0.09375
   height: 0.1875
-- name: -west
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-y: 0.65
+- name: offset-west
   left: 0.6875
   top: 0.09375
   width: 0.1875
   height: 0.1875
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.5
+  normal-radius-y: 0.65
+- name: end-up
+  left: 0.65625
+  top: 0.5625
+  width: 0.25
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-y: 0.5
+- name: end-down
+  left: 0.65625
+  top: 0.875
+  width: 0.25
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-y: 0.5
+- name: end-end
+  left: 0.53125
+  top: 0.6875
+  width: 0.125
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+- name: end-side
+  left: 0.65625
+  top: 0.6875
+  width: 0.25
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
+- name: offset-up
+  left: 0.6875
+  top: 0
+  width: 0.1875
+  height: 0.0625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5

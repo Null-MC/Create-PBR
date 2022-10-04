@@ -5,8 +5,6 @@ model: create:block/flywheel/block
 normal:
   method: sobel-high
   strength: 2
-smooth:
-  value: 0.6
 hcm:
   value: 255
 filters:
