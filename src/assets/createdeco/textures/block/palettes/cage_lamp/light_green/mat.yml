@@ -1,1 +1,19 @@
-{}
+smooth:
+  value: 0.92
+emissive:
+  value: 0.5
+filters:
+- name: top
+  left: 0
+  top: 0
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: side
+  left: 0
+  top: 0.25
+  width: 0.25
+  height: 0.3125
+  normal-curve-x: 90
+  normal-curve-top: 45
