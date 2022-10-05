@@ -1,1 +1,9 @@
+wrap-x: false
+wrap-y: false
 model: create:block/content_observer/block
+normal:
+  curve-x: 60
+  curve-y: 60
+  radius-x: 0.25
+  radius-y: 0.25
+  noise: 1

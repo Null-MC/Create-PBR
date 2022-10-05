@@ -1,1 +1,23 @@
-{}
+wrap-x: false
+wrap-y: false
+model: create:block/content_observer/block
+normal:
+  method: sobel-high
+filters:
+- name: front
+  left: 0
+  top: 0
+  width: 0.625
+  height: 0.625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
+- name: side
+  left: 0.625
+  top: 0
+  width: 0.1875
+  height: 0.625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-y: 0.5

@@ -1,1 +1,15 @@
+wrap-x: false
+wrap-y: false
 model: create:block/content_observer/block_powered
+normal:
+  noise: 1
+filters:
+- name: bottom
+  left: 0
+  top: 0.625
+  width: 1
+  height: 0.375
+  normal-curve-x: 75
+  normal-curve-y: 60
+  normal-radius-x: 0.25
+  normal-radius-y: 0.5
