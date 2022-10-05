@@ -1,1 +1,22 @@
-{}
+wrap-x: false
+wrap-y: false
+model: create:item/filter
+normal:
+  noise: 2
+filters:
+- name: side
+  left: 0
+  top: 0
+  width: 0.125
+  height: 0.625
+  normal-curve-x: 45
+  normal-curve-y: 90
+  normal-radius-y: 0.3
+- name: top
+  left: 0.875
+  top: 0
+  width: 0.125
+  height: 0.625
+  normal-curve-x: 45
+  normal-curve-y: 90
+  normal-radius-y: 0.3
