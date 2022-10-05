@@ -1,5 +1,7 @@
 texture-size: 16
-model: create:block/track_signal/item
+wrap-x: false
+wrap-y: false
+model: create:block/track_signal/block_entry_signal
 normal:
   curve-x: 90
   curve-y: 90

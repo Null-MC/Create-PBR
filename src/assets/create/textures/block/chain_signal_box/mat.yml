@@ -1,1 +1,10 @@
-{}
+texture-size: 16
+wrap-x: false
+wrap-y: false
+model: create:block/track_signal/block_cross_signal
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.2
+  radius-y: 0.2
+  method: sobel-low
