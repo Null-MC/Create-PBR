@@ -1,1 +1,15 @@
 model: create:block/redstone_contact/block
+normal:
+  noise: 0.5
+  method: sobel-low
+  strength: 2
+filters:
+- name: center
+  left: 0.375
+  top: 0.375
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.8
+  normal-radius-y: 0.8
