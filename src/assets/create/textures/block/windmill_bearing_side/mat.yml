@@ -3,6 +3,7 @@ wrap-x: false
 wrap-y: false
 model: create:block/windmill_bearing
 normal:
+  noise: 2
   method: sobel-low
   strength: 2
 filters:

@@ -1,1 +1,3 @@
 model: create:block/bell_base/block_floor
+normal:
+  noise: 2

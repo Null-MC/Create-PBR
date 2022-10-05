@@ -1,1 +1,6 @@
-{}
+normal:
+  noise: 0.5
+smooth:
+  value: 0.8
+hcm:
+  value: 231

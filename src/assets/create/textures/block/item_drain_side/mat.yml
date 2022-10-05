@@ -4,6 +4,7 @@ wrap-y: false
 model: create:block/item_drain
 blend-mode: cutout
 normal:
+  noise: 1
   method: sobel-low
   strength: 2
 filters:

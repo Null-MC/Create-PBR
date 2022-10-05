@@ -1,8 +1,10 @@
 model: create:block/andesite_ladder
 blend-mode: cutout
+normal:
+  noise: 2
 smooth:
-  value: 0.45
+  value: 0.48
 hcm:
-  value: 255
+  value: 232
 porosity:
   value: 0.6

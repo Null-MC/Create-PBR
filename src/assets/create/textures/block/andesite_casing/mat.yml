@@ -3,6 +3,7 @@ normal:
   curve-y: 90
   radius-x: 0.2
   radius-y: 0.2
+  noise: 2
   method: sobel-low
   strength: 2
 f0:

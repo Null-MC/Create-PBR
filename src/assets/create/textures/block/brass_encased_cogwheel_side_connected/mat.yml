@@ -2,6 +2,7 @@ texture-size: 32
 wrap-x: false
 wrap-y: false
 normal:
+  noise: 1
   method: sobel-low
 filters:
 - name: single

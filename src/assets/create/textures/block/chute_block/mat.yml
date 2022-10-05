@@ -2,5 +2,3 @@ texture-size: 16
 model: create:block/chute/block
 normal:
   method: sobel-high
-hcm:
-  value: 255

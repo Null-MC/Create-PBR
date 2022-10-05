@@ -1,7 +1,8 @@
 normal:
+  noise: 1
   method: sobel-low
   strength: 2
 smooth:
-  value: 0.8
+  value: 0.6
 hcm:
   value: 255

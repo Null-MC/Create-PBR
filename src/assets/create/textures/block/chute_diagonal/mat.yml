@@ -2,8 +2,6 @@ texture-size: 32
 wrap-x: false
 wrap-y: false
 model: create:block/chute/block_diagonal
-hcm:
-  value: 255
 filters:
 - name: side-top
   left: 0

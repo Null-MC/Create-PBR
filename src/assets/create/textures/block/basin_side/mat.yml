@@ -1,5 +1,7 @@
 texture-size: 16
 model: create:block/basin/block
+normal:
+  noise: 2
 smooth:
   value: 0.5
 hcm:

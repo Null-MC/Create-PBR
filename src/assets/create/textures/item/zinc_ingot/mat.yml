@@ -1,1 +1,10 @@
-{}
+height:
+  scale: 0
+normal:
+  noise: 0.5
+  method: sobel3
+  strength: 1.6
+smooth:
+  value: 0.9
+hcm:
+  value: 233

@@ -6,6 +6,6 @@ normal:
   method: sobel-high
   strength: 2
 smooth:
-  value: 0.5
+  value: 0.78
 hcm:
-  value: 255
+  value: 233

@@ -1,3 +1,5 @@
+texture-size: 128
 normal:
+  noise: 1
   method: sobel-low
   strength: 2

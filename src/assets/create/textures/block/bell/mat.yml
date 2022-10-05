@@ -1,5 +1,7 @@
 texture-size: 32
 blend-mode: cutout
+normal:
+  noise: 1
 smooth:
   value: 0.55
 hcm:

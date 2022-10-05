@@ -1,3 +1,4 @@
+texture-size: 32
 model: create:block/crushing_wheel
 blend-mode: cutout
 height:
