@@ -7,7 +7,6 @@ normal:
   curve-y: 90
   radius-x: 0.3
   radius-y: 0.1
-smooth:
-  value: 0.4
+  noise: 0.5
 f0:
   value: 0.043
