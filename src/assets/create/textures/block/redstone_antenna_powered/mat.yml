@@ -1,1 +1,9 @@
-{}
+blend-mode: cutout
+filters:
+- name: idk
+  left: 0.25
+  top: 0
+  width: 0.3125
+  height: 0.3125
+  normal-curve-x: -60
+  normal-curve-y: -60

@@ -1,1 +1,36 @@
-{}
+wrap-x: false
+wrap-y: false
+model: create:item/linked_controller
+filters:
+- name: Controller-west
+  left: 0
+  top: 0.5
+  width: 0.8125
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 45
+  normal-radius-x: 0.25
+- name: button
+  left: 0.125
+  top: 0.6875
+  width: 0.125
+  height: 0.125
+  normal-curve-x: 60
+  normal-curve-y: 60
+- name: Controller-top
+  left: 0
+  top: 0
+  width: 0.8125
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.25
+  normal-radius-y: 0.4
+- name: Controller-side
+  left: 0.8125
+  top: 0
+  width: 0.125
+  height: 0.5
+  normal-curve-x: 45
+  normal-curve-y: 90
+  normal-radius-y: 0.4

@@ -1,1 +1,47 @@
 model: create:block/analog_lever/block
+normal:
+  method: sobel-high
+  strength: 2
+filters:
+- name: up
+  left: 0.1875
+  top: 0
+  width: 0.5
+  height: 0.375
+  normal-curve-x: 60
+  normal-curve-y: 60
+  normal-radius-x: 0.4
+  normal-radius-y: 0.5
+- name: north
+  left: 0
+  top: 0
+  width: 0.1875
+  height: 0.375
+  normal-curve-x: 45
+  normal-curve-y: 60
+  normal-radius-y: 0.5
+- name: south
+  left: 0.6875
+  top: 0
+  width: 0.1875
+  height: 0.375
+  normal-curve-x: 45
+  normal-curve-y: 60
+  normal-radius-y: 0.5
+- name: west
+  left: 0.1875
+  top: 0.375
+  width: 0.5
+  height: 0.1875
+  normal-curve-x: 60
+  normal-curve-y: 45
+  normal-radius-x: 0.4
+- name: down
+  left: 0.1875
+  top: 0.625
+  width: 0.5
+  height: 0.375
+  normal-curve-x: 60
+  normal-curve-y: 60
+  normal-radius-x: 0.4
+  normal-radius-y: 0.5

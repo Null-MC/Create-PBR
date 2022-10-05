@@ -1,1 +1,6 @@
-{}
+normal:
+  noise: 3
+  method: sobel-low
+  strength: 2
+hcm:
+  value: 232
