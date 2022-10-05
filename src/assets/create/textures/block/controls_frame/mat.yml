@@ -1,1 +1,43 @@
+texture-size: 32
 model: create:block/controls/block_virtual
+normal:
+  method: sobel-low
+filters:
+- name: front
+  left: 0
+  top: 0
+  width: 0.5
+  height: 0.4375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.2
+- name: side
+  left: 0.5
+  top: 0
+  width: 0.3125
+  height: 0.4375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-left: 0.35
+  normal-radius-right: 0.5
+  normal-radius-y: 0.2
+- name: back
+  left: 0
+  top: 0.5625
+  width: 0.5
+  height: 0.4375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2
+- name: side2
+  left: 0.71875
+  top: 0.5625
+  width: 0.28125
+  height: 0.4375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-left: 0.5
+  normal-radius-right: 0.35
+  normal-radius-y: 0.2
