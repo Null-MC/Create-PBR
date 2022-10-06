@@ -1,0 +1,19 @@
+blend-mode: cutout
+normal:
+  curve-x: 45
+  curve-y: 45
+  radius-x: 0.2
+  radius-y: 0.1
+smooth:
+  value: 0.9
+parts:
+- name: glass_door_top
+  left: 0
+  top: 0
+  width: 16
+  height: 16
+- name: glass_door_bottom
+  left: 0
+  top: 16
+  width: 16
+  height: 16

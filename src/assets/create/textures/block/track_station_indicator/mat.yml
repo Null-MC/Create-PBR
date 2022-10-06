@@ -1,1 +1,18 @@
+texture-size: 16
 model: create:block/track_overlay/station
+normal:
+  noise: 1
+  method: sobel-low
+  strength: 2
+hcm:
+  value: 232
+filters:
+- name: default
+  left: 0.0625
+  top: 0.0625
+  width: 0.875
+  height: 0.875
+  normal-curve-x: 140
+  normal-curve-y: 140
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2

@@ -1,1 +1,36 @@
-{}
+blend-mode: cutout
+smooth:
+  value: 0.9
+filters:
+- name: top
+  left: 0
+  top: 0
+  width: 1
+  height: 0.1875
+  normal-curve-x: 45
+  normal-curve-y: 45
+  normal-radius-x: 0.25
+- name: side-top
+  left: 0
+  top: 0.25
+  width: 1
+  height: 0.1875
+  normal-curve-left: 22.5
+  normal-curve-y: 45
+  normal-radius-x: 0.25
+- name: bottom
+  left: 0
+  top: 0.5
+  width: 1
+  height: 0.1875
+  normal-curve-x: 45
+  normal-curve-y: 45
+  normal-radius-x: 0.25
+- name: side-bottom
+  left: 0
+  top: 0.75
+  width: 1
+  height: 0.1875
+  normal-curve-left: 22.5
+  normal-curve-y: 45
+  normal-radius-x: 0.25

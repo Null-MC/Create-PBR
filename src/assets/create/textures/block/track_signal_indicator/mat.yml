@@ -1,10 +1,11 @@
 texture-size: 16
 model: create:block/track_overlay/signal
 normal:
+  noise: 1
   method: sobel-low
   strength: 2
 hcm:
-  value: 255
+  value: 232
 filters:
 - name: default
   left: 0.0625
