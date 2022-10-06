@@ -1,1 +1,9 @@
-{}
+wrap-x: false
+wrap-y: false
+model: create:block/linear_chassis
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.2
+  radius-y: 0.25
+  noise: 2

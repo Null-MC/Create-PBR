@@ -1,1 +1,43 @@
 model: create:block/smart_fluid_pipe/block
+normal:
+  noise: 1
+  method: sobel-low
+  strength: 2
+smooth:
+  value: 0.6
+filters:
+- name: -west
+  left: 0
+  top: 0
+  width: 0.375
+  height: 0.4375
+  normal-curve-x: 45
+  normal-curve-y: 45
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4
+- name: -north
+  left: 0.5
+  top: 0.5
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 45
+  normal-curve-y: 45
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4
+- name: -south
+  left: 0
+  top: 0.5
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 45
+  normal-curve-y: 45
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4
+- name: -west
+  left: 0.8125
+  top: 0
+  width: 0.1875
+  height: 0.5
+  normal-curve-x: 45
+  normal-curve-y: 45
+  normal-radius-y: 0.4
