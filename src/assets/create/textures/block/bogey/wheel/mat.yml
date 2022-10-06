@@ -1,2 +1,30 @@
 texture-size: 32
+wrap-x: true
+wrap-y: true
 blend-mode: cutout
+normal:
+  noise: 1
+  method: sobel-low
+  strength: 2
+filters:
+- name: wheel
+  left: 0.65625
+  top: 0
+  width: 0.3125
+  height: 0.15625
+  normal-curve-x: 55
+- name: idk
+  left: 0.6875
+  top: 0.78125
+  width: 0.21875
+  height: 0.21875
+  normal-curve-x: 60
+  normal-curve-y: 60
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4
+- name: idk-2
+  left: 0.6875
+  top: 0.625
+  width: 0.21875
+  height: 0.15625
+  normal-curve-x: 90

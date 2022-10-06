@@ -1,1 +1,16 @@
 texture-size: 32
+normal:
+  noise: 0.5
+filters:
+- name: suspension-1
+  left: 0.25
+  top: 0.625
+  width: 0.125
+  height: 0.3125
+  normal-curve-x: 90
+- name: suspension-2
+  left: 0.375
+  top: 0.625
+  width: 0.125
+  height: 0.3125
+  normal-curve-x: 90

@@ -1,9 +1,8 @@
 texture-size: 64
 normal:
+  noise: 1
   method: sobel-low
   strength: 2
-smooth:
-  value: 0.5
 hcm:
   value: 234
 filters:

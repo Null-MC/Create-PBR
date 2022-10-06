@@ -1,1 +1,31 @@
-{}
+wrap-x: false
+wrap-y: false
+model: create:block/rope_pulley/pulley_magnet
+normal:
+  noise: 1
+  method: sobel-low
+  strength: 2
+filters:
+- name: rope-north
+  left: 0.75
+  top: 0
+  width: 0.25
+  height: 0.875
+  normal-curve-x: 90
+- name: magnet-up
+  left: 0
+  top: 0
+  width: 0.625
+  height: 0.625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4
+- name: magnet-north
+  left: 0
+  top: 0.625
+  width: 0.625
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 45
+  normal-radius-x: 0.4

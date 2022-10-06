@@ -1,2 +1,21 @@
 texture-size: 32
 blend-mode: cutout
+filters:
+- name: piston-end-top
+  left: 0
+  top: 0.5
+  width: 0.1875
+  height: 0.3125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.7
+  normal-radius-y: 0.4
+- name: piston-end-side
+  left: 0.1875
+  top: 0.5
+  width: 0.3125
+  height: 0.3125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.6
+  normal-radius-y: 0.4

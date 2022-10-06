@@ -2,10 +2,9 @@ texture-size: 64
 wrap-x: false
 wrap-y: false
 normal:
+  noise: 1
   method: sobel-low
   strength: 2
-smooth:
-  value: 0.6
 hcm:
   value: 234
 filters:
