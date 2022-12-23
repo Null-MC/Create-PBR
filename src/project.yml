@@ -38,3 +38,27 @@ profiles:
       texture: none
   block-texture-size: 16
   item-texture-size: 16
+- edition: Java
+  format: 8
+  name: Create OldPBR 128x
+  description: ''
+  tags: 128x OldPBR
+  encoding:
+    format: old-pbr
+    opacity:
+      texture: none
+    color-red:
+      texture: none
+    color-green:
+      texture: none
+    color-blue:
+      texture: none
+    normal-x:
+      sampler: bicubic
+    normal-y:
+      sampler: bicubic
+    normal-z:
+      sampler: bicubic
+  block-texture-size: 128
+  item-texture-size: 128
+  texture-scale: 4

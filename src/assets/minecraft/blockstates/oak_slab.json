@@ -1,0 +1,16 @@
+{
+  "multipart": [
+    {
+     "apply": { "model": "block/oak_slab_top" },
+     "when": { "type": "top" }
+    },
+    {
+     "apply": { "model": "block/oak_slab" },
+     "when": { "type": "bottom" }
+    },
+    {
+     "apply": { "model": "create:block/track_oak" },
+     "when": { "type": "double" }
+    }
+  ]
+}

@@ -1,1 +1,12 @@
-{}
+blend-mode: cutout
+smooth:
+  value: 0.7
+hcm:
+  value: 230
+filters:
+- name: default
+  left: 0.4375
+  top: 0
+  width: 0.125
+  height: 1
+  normal-curve-x: 45

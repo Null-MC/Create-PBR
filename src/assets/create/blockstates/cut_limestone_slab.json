@@ -1,0 +1,16 @@
+{
+  "multipart": [
+    {
+     "apply": { "model": "create:block/cut_limestone_slab_top" },
+     "when": { "type": "top" }
+    },
+    {
+     "apply": { "model": "create:block/cut_limestone_slab" },
+     "when": { "type": "bottom" }
+    },
+    {
+     "apply": { "model": "create:block/track_concrete" },
+     "when": { "type": "double" }
+    }
+  ]
+}

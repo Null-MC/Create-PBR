@@ -1,0 +1,16 @@
+{
+  "multipart": [
+    {
+     "apply": { "model": "block/spruce_slab_top" },
+     "when": { "type": "top" }
+    },
+    {
+     "apply": { "model": "block/spruce_slab" },
+     "when": { "type": "bottom" }
+    },
+    {
+     "apply": { "model": "create:block/track_spruce" },
+     "when": { "type": "double" }
+    }
+  ]
+}

@@ -1,1 +1,45 @@
 texture-size: 32
+wrap-x: false
+wrap-y: false
+model: create:block/redstone_link/transmitter
+blend-mode: cutout
+normal:
+  method: sobel-high
+  strength: 2
+filters:
+- name: Controller-up
+  left: 0
+  top: 0.4375
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: Controller-down
+  left: 0.3125
+  top: 0
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: Controller-north
+  left: 0.375
+  top: 0.4375
+  width: 0.09375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.7
+  normal-radius-y: 0.3
+- name: Controller-west
+  left: 0
+  top: 0.8125
+  width: 0.375
+  height: 0.09375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.7

@@ -1,1 +1,11 @@
-{}
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+normal:
+  noise: 2
+  method: sobel-low
+  strength: 2
+smooth:
+  value: 0.7
+hcm:
+  value: 230

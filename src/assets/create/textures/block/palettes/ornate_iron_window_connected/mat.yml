@@ -1,1 +1,49 @@
-{}
+texture-size: 32
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+height:
+  scale: 0
+normal:
+  noise: 2
+  method: sobel-low
+  strength: 2
+smooth:
+  value: 0.7
+hcm:
+  value: 230
+filters:
+- name: single
+  left: 0
+  top: 0
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.25
+  normal-radius-y: 0.25
+- name: bottom
+  left: 0.5
+  top: 0
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-x: 0.25
+  normal-radius-y: 0.25
+- name: top
+  left: 0
+  top: 0.5
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.25
+  normal-radius-y: 0.25
+- name: middle
+  left: 0.5
+  top: 0.5
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 90
+  normal-radius-x: 0.25
