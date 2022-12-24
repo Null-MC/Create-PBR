@@ -1,1 +1,15 @@
-{}
+wrap-y: false
+model: create:sticker/block
+blend-mode: cutout
+height:
+  scale: 0.8
+  edge-fade-top: 0.01
+normal:
+  noise: 0.5
+  method: sobel-low
+filters:
+- name: default
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-bottom: 0.1

@@ -40,11 +40,11 @@ profiles:
   item-texture-size: 16
 - edition: Java
   format: 8
-  name: Create OldPBR 128x
+  name: Create PatrixPBR 128x
   description: ''
-  tags: 128x OldPBR
+  tags: 128x PatrixPBR
   encoding:
-    format: old-pbr
+    format: lab-1.3
     opacity:
       texture: none
     color-red:
@@ -53,12 +53,25 @@ profiles:
       texture: none
     color-blue:
       texture: none
+    occlusion:
+      texture: none
     normal-x:
       sampler: bicubic
     normal-y:
       sampler: bicubic
     normal-z:
+      texture: normal
+      color: blue
       sampler: bicubic
+      min-value: 0
+      max-value: 1
+    metal:
+      texture: specular
+      color: green
+    f0:
+      texture: none
+    hcm:
+      texture: none
   block-texture-size: 128
   item-texture-size: 128
   texture-scale: 4

@@ -1,6 +1,19 @@
 texture-width: 16
 texture-height: 32
+wrap-x: false
+model: create:block/belt/middle
+height:
+  scale: 0.25
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.2
+  radius-y: 0.1
+  noise: 0.5
+  method: sobel-low
 smooth:
   value: 0.4
 f0:
-  value: 0.042
+  value: 0.043
+emissive:
+  scale: 0.6

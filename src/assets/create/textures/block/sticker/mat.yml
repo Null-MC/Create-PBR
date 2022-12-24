@@ -1,1 +1,40 @@
 texture-size: 32
+model: create:sticker/head
+filters:
+- name: head-top
+  left: 0.53125
+  top: 0.53125
+  width: 0.4375
+  height: 0.4375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: head-side
+  left: 0.53125
+  top: 0
+  width: 0.4375
+  height: 0.15625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-top: 0.8
+  normal-radius-bottom: 0.5
+- name: head-bottom
+  left: 0.03125
+  top: 0.53125
+  width: 0.4375
+  height: 0.4375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: head-bottom-2
+  left: 0
+  top: 0
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
