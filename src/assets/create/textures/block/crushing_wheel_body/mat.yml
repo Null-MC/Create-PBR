@@ -1,3 +1,68 @@
 texture-size: 32
 model: create:block/crushing_wheel
 blend-mode: cutout
+normal:
+  noise: 6
+  method: sobel-high
+f0:
+  value: 0.05
+porosity:
+  value: 0.6
+filters:
+- name: 6
+  left: 0.46875
+  top: 0.375
+  width: 0.21875
+  height: 0.375
+  normal-curve-right: 45
+  normal-curve-y: 90
+  normal-radius-right: 0.5
+  normal-radius-y: 0.25
+- name: 2
+  left: 0.46875
+  top: 0
+  width: 0.21875
+  height: 0.375
+  normal-curve-right: 45
+  normal-curve-y: 90
+  normal-radius-right: 0.5
+  normal-radius-y: 0.25
+- name: 1
+  left: 0.28125
+  top: 0
+  width: 0.1875
+  height: 0.375
+  normal-curve-right: 45
+  normal-curve-y: 90
+  normal-radius-right: 0.5
+  normal-radius-y: 0.25
+- name: 3
+  left: 0.6875
+  top: 0
+  width: 0.21875
+  height: 0.375
+  normal-curve-right: 45
+  normal-curve-y: 90
+  normal-radius-right: 0.5
+  normal-radius-y: 0.25
+- name: 5
+  left: 0
+  top: 0.59375
+  width: 0.46875
+  height: 0.21875
+  normal-curve-right: 45
+  normal-radius-right: 0.2
+- name: 4
+  left: 0
+  top: 0.375
+  width: 0.46875
+  height: 0.21875
+  normal-curve-right: 45
+  normal-radius-right: 0.2
+- name: 7
+  left: 0.53125
+  top: 0.78125
+  width: 0.46875
+  height: 0.21875
+  normal-curve-right: 45
+  normal-radius-right: 0.2
