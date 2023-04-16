@@ -1,1 +1,7 @@
-{}
+height:
+  scale: 0.3
+normal:
+  method: sobel-low
+  strength: 2.4707
+hcm:
+  value: 255

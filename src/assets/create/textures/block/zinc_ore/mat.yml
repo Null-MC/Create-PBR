@@ -1,1 +1,8 @@
-{}
+height:
+  scale: 0
+normal:
+  method: sobel-low
+occlusion:
+  z-scale: 2
+f0:
+  value: 0.04
