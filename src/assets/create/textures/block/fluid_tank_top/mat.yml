@@ -4,9 +4,10 @@ normal:
   curve-y: 90
   radius-x: 0.2
   radius-y: 0.2
+  noise: 0.5
   method: sobel-low
   strength: 2
 smooth:
-  value: 0.6
+  value: 0.65
 hcm:
   value: 234

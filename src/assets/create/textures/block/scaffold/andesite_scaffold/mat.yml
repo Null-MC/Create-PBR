@@ -1,0 +1,9 @@
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+normal:
+  noise: 3
+smooth:
+  value: 0.46
+hcm:
+  value: 232

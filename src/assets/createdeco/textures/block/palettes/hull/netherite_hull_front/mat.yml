@@ -1,0 +1,13 @@
+texture-size: 32
+wrap-x: false
+wrap-y: false
+model: createdeco:netherite_hull
+blend-mode: cutout
+normal:
+  noise: 3
+  method: sobel-low
+  strength: 4
+smooth:
+  value: 0.46
+hcm:
+  value: 235

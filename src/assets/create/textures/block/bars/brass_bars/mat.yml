@@ -1,0 +1,11 @@
+wrap-y: false
+blend-mode: cutout
+normal:
+  curve-y: 90
+  radius-y: 0.2
+  noise: 1
+  strength: 2
+smooth:
+  value: 0.55
+hcm:
+  value: 255

@@ -1,0 +1,10 @@
+blend-mode: cutout
+normal:
+  curve-x: 90
+  radius-x: 0.2
+  noise: 1
+  strength: 2.8
+smooth:
+  value: 0.65
+hcm:
+  value: 230

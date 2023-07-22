@@ -1,0 +1,13 @@
+texture-size: 32
+wrap-x: false
+wrap-y: false
+model: createdeco:iron_hull
+blend-mode: cutout
+normal:
+  noise: 1
+  method: sobel-low
+  strength: 4
+smooth:
+  value: 0.65
+hcm:
+  value: 230

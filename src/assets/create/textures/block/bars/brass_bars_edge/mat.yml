@@ -1,0 +1,15 @@
+wrap-x: false
+blend-mode: cutout
+normal:
+  noise: 1
+smooth:
+  value: 0.55
+hcm:
+  value: 255
+filters:
+- name: default
+  left: 0.4375
+  top: 0
+  width: 0.125
+  height: 1
+  normal-curve-x: 90

@@ -1,0 +1,11 @@
+wrap-x: false
+model: createdeco:block/netherite_ladder
+blend-mode: cutout
+height:
+  edge-fade-x: 0.01
+normal:
+  noise: 3
+smooth:
+  value: 0.46
+hcm:
+  value: 235

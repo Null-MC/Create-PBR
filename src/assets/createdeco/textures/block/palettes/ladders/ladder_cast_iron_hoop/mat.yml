@@ -1,0 +1,10 @@
+wrap-x: false
+wrap-y: false
+model: createdeco:block/cast_iron_ladder
+blend-mode: cutout
+normal:
+  noise: 2.5
+smooth:
+  value: 0.5
+hcm:
+  value: 230

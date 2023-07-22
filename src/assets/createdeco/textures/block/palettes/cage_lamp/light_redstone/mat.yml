@@ -1,3 +1,7 @@
+wrap-x: false
+wrap-y: false
+model: createdeco:block/cage_lamp
+blend-mode: cutout
 smooth:
   value: 0.92
 emissive:

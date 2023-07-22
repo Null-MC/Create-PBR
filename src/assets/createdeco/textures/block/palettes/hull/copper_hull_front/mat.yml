@@ -1,0 +1,13 @@
+texture-size: 32
+wrap-x: false
+wrap-y: false
+model: createdeco:copper_hull
+blend-mode: cutout
+normal:
+  noise: 1.5
+  method: sobel-low
+  strength: 4
+smooth:
+  value: 0.55
+hcm:
+  value: 234

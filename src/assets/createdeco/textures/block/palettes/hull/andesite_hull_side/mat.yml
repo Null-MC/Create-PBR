@@ -1,0 +1,21 @@
+wrap-x: false
+wrap-y: false
+model: createdeco:andesite_hull
+blend-mode: cutout
+normal:
+  noise: 3
+  method: sobel-low
+  strength: 2
+smooth:
+  value: 0.46
+hcm:
+  value: 232
+filters:
+- name: default
+  left: 0
+  top: 0
+  width: 0.8125
+  height: 1
+  normal-curve-x: 45
+  normal-curve-y: 90
+  normal-radius-y: 0.3

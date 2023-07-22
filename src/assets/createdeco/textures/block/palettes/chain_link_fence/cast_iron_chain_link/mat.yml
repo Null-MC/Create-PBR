@@ -1,1 +1,12 @@
-{}
+blend-mode: cutout
+height:
+  texture: opacity.png
+  scale: 0.06
+normal:
+  noise: 8
+  method: sobel-high
+  strength: 0.1
+smooth:
+  value: 0.4
+hcm:
+  value: 230

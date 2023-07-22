@@ -1,0 +1,10 @@
+blend-mode: cutout
+normal:
+  radius-x: 0.2
+  noise: 0.5
+  method: sobel-low
+  strength: 1.8065
+smooth:
+  value: 0.8
+hcm:
+  value: 231

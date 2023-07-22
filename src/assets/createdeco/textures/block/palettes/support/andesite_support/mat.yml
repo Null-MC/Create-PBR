@@ -1,0 +1,11 @@
+blend-mode: cutout
+height:
+  scale: 0.3
+normal:
+  noise: 3
+  method: sobel-low
+  strength: 0.5
+smooth:
+  value: 0.46
+hcm:
+  value: 232

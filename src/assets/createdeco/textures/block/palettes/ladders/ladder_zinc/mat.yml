@@ -1,0 +1,11 @@
+wrap-x: false
+model: createdeco:block/zinc_ladder
+blend-mode: cutout
+height:
+  edge-fade-x: 0.01
+normal:
+  noise: 0.5
+smooth:
+  value: 0.8
+hcm:
+  value: 233

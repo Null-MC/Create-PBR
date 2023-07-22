@@ -1,0 +1,9 @@
+blend-mode: cutout
+normal:
+  noise: 1
+  method: sobel3
+  strength: 2.2
+smooth:
+  value: 0.55
+hcm:
+  value: 255

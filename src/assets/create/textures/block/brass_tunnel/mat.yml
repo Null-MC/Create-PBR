@@ -1,2 +1,29 @@
 texture-size: 32
+wrap-x: false
+wrap-y: false
 model: create:block/brass_tunnel/straight
+normal:
+  noise: 2
+  method: sobel-low
+  strength: 3
+smooth:
+  value: 0.6
+filters:
+- name: side
+  left: 0
+  top: 0
+  width: 0.5
+  height: 0.65625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2
+- name: side-window
+  left: 0.5
+  top: 0
+  width: 0.5
+  height: 0.65625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2

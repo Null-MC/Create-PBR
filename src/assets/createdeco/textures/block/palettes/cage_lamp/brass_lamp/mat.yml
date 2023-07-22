@@ -1,1 +1,44 @@
-{}
+wrap-x: false
+wrap-y: false
+model: createdeco:block/cage_lamp
+blend-mode: cutout
+normal:
+  noise: 2.5
+  method: sobel-high
+  strength: 2
+smooth:
+  value: 0.55
+hcm:
+  value: 255
+filters:
+- name: cage-top
+  left: 0
+  top: 0
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: cage-side
+  left: 0
+  top: 0.375
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+- name: base-end
+  left: 0.625
+  top: 0
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.7
+  normal-radius-y: 0.7
+- name: base-side
+  left: 0.625
+  top: 0.375
+  width: 0.375
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 60
+  normal-radius-x: 0.7

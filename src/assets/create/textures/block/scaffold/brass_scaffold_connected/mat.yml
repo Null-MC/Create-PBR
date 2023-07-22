@@ -1,0 +1,10 @@
+texture-size: 32
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+normal:
+  noise: 1
+smooth:
+  value: 0.55
+hcm:
+  value: 255

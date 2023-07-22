@@ -1,7 +1,7 @@
 texture-size: 64
 normal:
-  noise: 1
+  noise: 0.5
 smooth:
-  value: 0.5
+  value: 0.65
 hcm:
   value: 234
