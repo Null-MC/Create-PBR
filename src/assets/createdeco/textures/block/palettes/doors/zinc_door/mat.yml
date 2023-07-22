@@ -1,0 +1,26 @@
+wrap-x: false
+wrap-y: false
+model: block/door
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.2
+  radius-y: 0.1
+  noise: 0.5
+  method: sobel-low
+  strength: 2.2
+smooth:
+  value: 0.8
+hcm:
+  value: 233
+parts:
+- name: zinc_door_top
+  left: 0
+  top: 0
+  width: 16
+  height: 16
+- name: zinc_door_bottom
+  left: 0
+  top: 16
+  width: 16
+  height: 16

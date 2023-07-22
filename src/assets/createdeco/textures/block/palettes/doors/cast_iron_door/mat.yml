@@ -1,0 +1,27 @@
+wrap-x: false
+wrap-y: false
+model: block/door
+blend-mode: cutout
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.2
+  radius-y: 0.1
+  noise: 2.5
+  method: sobel-low
+  strength: 2
+smooth:
+  value: 0.5
+hcm:
+  value: 230
+parts:
+- name: cast_iron_door_top
+  left: 0
+  top: 0
+  width: 16
+  height: 16
+- name: cast_iron_door_bottom
+  left: 0
+  top: 16
+  width: 16
+  height: 16

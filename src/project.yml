@@ -5,7 +5,7 @@ input:
   format: raw
 profiles:
 - edition: Java
-  format: 8
+  format: 9
   name: Create LabPBR
   description: ''
   tags: 16x LabPBR
@@ -22,7 +22,7 @@ profiles:
   block-texture-size: 16
   item-texture-size: 16
 - edition: Java
-  format: 8
+  format: 9
   name: Create OldPBR
   description: ''
   tags: 16x OldPBR
@@ -39,7 +39,7 @@ profiles:
   block-texture-size: 16
   item-texture-size: 16
 - edition: Java
-  format: 8
+  format: 9
   name: Create PatrixPBR 128x
   description: ''
   tags: 128x PatrixPBR

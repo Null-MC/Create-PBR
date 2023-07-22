@@ -1,0 +1,26 @@
+wrap-x: false
+wrap-y: false
+model: block/door
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.2
+  radius-y: 0.1
+  noise: 3
+  method: sobel-high
+  strength: 2.7079
+smooth:
+  value: 0.46
+hcm:
+  value: 232
+parts:
+- name: andesite_door_top
+  left: 0
+  top: 0
+  width: 16
+  height: 16
+- name: andesite_door_bottom
+  left: 0
+  top: 16
+  width: 16
+  height: 16

@@ -1,0 +1,27 @@
+wrap-x: false
+wrap-y: false
+model: block/door
+blend-mode: cutout
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.2
+  radius-y: 0.1
+  noise: 1
+  method: sobel-low
+  strength: 2.2
+smooth:
+  value: 0.55
+hcm:
+  value: 255
+parts:
+- name: brass_door_top
+  left: 0
+  top: 0
+  width: 16
+  height: 16
+- name: brass_door_bottom
+  left: 0
+  top: 16
+  width: 16
+  height: 16
