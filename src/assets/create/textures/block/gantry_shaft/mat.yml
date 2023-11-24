@@ -1,1 +1,18 @@
 model: create:block/gantry_shaft/block_single
+normal:
+  noise: 1
+smooth:
+  scale: 0.8
+filters:
+- name: side-1
+  left: 0
+  top: 0
+  width: 0.375
+  height: 1
+  normal-curve-x: 90
+- name: side-2
+  left: 0.375
+  top: 0
+  width: 0.375
+  height: 1
+  normal-curve-x: 90

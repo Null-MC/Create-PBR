@@ -15,5 +15,3 @@ smooth:
   value: 0.4
 f0:
   value: 0.043
-emissive:
-  scale: 0.6

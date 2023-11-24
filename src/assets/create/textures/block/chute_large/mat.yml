@@ -1,0 +1,51 @@
+texture-size: 32
+wrap-x: false
+wrap-y: false
+model: create:block/chute/block_diagonal
+blend-mode: cutout
+normal:
+  noise: 1
+hcm:
+  value: 232
+filters:
+- name: top
+  left: 0
+  top: 0
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: side-lower-1
+  left: 0.5625
+  top: 0.09375
+  width: 0.375
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 60
+  normal-radius-x: 0.3
+  normal-radius-y: 0.5
+- name: side-2
+  left: 0.0625
+  top: 0.59375
+  width: 0.375
+  height: 0.34375
+- name: side-top
+  left: 0.53125
+  top: 0.59375
+  width: 0.4375
+  height: 0.34375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.4
+- name: side-lower-2
+  left: 0.5625
+  top: 0.28125
+  width: 0.375
+  height: 0.15625
+  normal-curve-x: 90
+  normal-curve-y: 60
+  normal-radius-x: 0.3
+  normal-radius-y: 0.5

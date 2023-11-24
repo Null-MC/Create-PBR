@@ -13,5 +13,3 @@ normal:
   method: sobel-low
 f0:
   value: 0.043
-emissive:
-  scale: 0.6

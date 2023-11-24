@@ -5,21 +5,21 @@ input:
   format: raw
 profiles:
 - edition: Java
-  format: 8
+  format: 9
   name: Create LabPBR Wood Tracks
   description: ''
   tags: 16x LabPBR
   encoding:
     format: lab-1.3
 - edition: Java
-  format: 8
+  format: 9
   name: Create OldPBR Wood Tracks
   description: ''
   tags: 16x OldPBR
   encoding:
     format: old-pbr
 - edition: Java
-  format: 8
+  format: 9
   name: Create OldPBR Wood Tracks 128x
   description: ''
   tags: 128x OldPBR
@@ -28,3 +28,10 @@ profiles:
   block-texture-size: 128
   item-texture-size: 128
   texture-scale: 4
+- edition: Java
+  format: 9
+  name: Create Wood Tracks
+  description: ''
+  tags: ''
+  encoding:
+    format: color

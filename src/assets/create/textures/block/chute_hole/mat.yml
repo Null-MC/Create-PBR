@@ -1,0 +1,19 @@
+wrap-x: false
+wrap-y: false
+model: create:block/chute/block
+blend-mode: cutout
+height:
+  scale: 0
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.2
+  radius-y: 0.2
+  noise: 1
+  method: sobel-low
+  strength: 2
+occlusion:
+  step-distance: 0.5
+  z-scale: 9
+hcm:
+  value: 232
