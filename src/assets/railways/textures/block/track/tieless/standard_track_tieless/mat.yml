@@ -1,0 +1,3 @@
+texture-size: 32
+model: railways:block/track/tieless/x_ortho
+blend-mode: cutout
