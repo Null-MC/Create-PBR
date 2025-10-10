@@ -1,5 +1,10 @@
 wrap-y: false
+model: createdeco:block/copper_catwalk_railing
 blend-mode: cutout
+normal:
+  noise: 2
+f0:
+  value: 0.053
 filters:
 - name: top
   left: 0

@@ -2,9 +2,11 @@ texture-size: 128
 wrap-x: false
 wrap-y: false
 blend-mode: cutout
+height:
+  shift: -0.1251
 normal:
-  noise: 3
+  noise: 2
   method: sobel-low
-  strength: 0.5
+  strength: 1
 hcm:
   value: 230

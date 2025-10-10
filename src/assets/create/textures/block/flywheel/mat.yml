@@ -1,7 +1,7 @@
 texture-size: 32
 wrap-x: false
 wrap-y: false
-model: create:block/flywheel/block
+model: create:block/flywheel/flywheel
 normal:
   method: sobel-high
   strength: 2

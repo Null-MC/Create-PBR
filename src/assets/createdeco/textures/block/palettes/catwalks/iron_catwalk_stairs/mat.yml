@@ -1,0 +1,41 @@
+wrap-x: false
+wrap-y: false
+normal:
+  strength: 2
+  method: sobel-low
+  noise: 2
+smooth:
+  shift: 0.1073
+hcm:
+  value: 230
+model: createdeco:block/iron_catwalk_stairs
+blend-mode: cutout
+filters:
+- name: step-surface
+  left: 0
+  top: 0
+  width: 1
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.4
+- name: step-edge
+  left: 0
+  top: 0.5
+  width: 1
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.7
+- name: -up
+  left: 0.75
+  top: 0.75
+  width: 0.125
+  height: 0.125
+- name: -west
+  left: 0
+  top: 0.625
+  width: 0.375
+  height: 0.375

@@ -1,0 +1,39 @@
+wrap-x: false
+wrap-y: false
+model: createdeco:block/copper_catwalk_stairs
+blend-mode: cutout
+normal:
+  noise: 2
+  method: sobel-low
+  strength: 2
+hcm:
+  value: 234
+filters:
+- name: step-surface
+  left: 0
+  top: 0
+  width: 1
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.4
+- name: step-edge
+  left: 0
+  top: 0.5
+  width: 1
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.7
+- name: -up
+  left: 0.75
+  top: 0.75
+  width: 0.125
+  height: 0.125
+- name: -west
+  left: 0
+  top: 0.625
+  width: 0.375
+  height: 0.375

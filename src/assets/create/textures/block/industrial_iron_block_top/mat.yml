@@ -1,0 +1,13 @@
+wrap-x: false
+wrap-y: false
+model: create:block/industrial_iron_block
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.2
+  radius-y: 0.2
+  noise: 2
+  method: sobel-low
+  strength: 2
+hcm:
+  value: 230

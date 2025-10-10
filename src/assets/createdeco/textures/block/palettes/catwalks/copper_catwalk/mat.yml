@@ -1,3 +1,4 @@
+model: createdeco:block/copper_catwalk
 blend-mode: cutout
 normal:
   curve-x: 90

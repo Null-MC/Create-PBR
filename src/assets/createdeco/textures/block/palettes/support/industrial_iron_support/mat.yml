@@ -1,0 +1,12 @@
+wrap-x: false
+blend-mode: cutout
+normal:
+  curve-x: 90
+  radius-x: 0.2
+  noise: 2
+  method: sobel-low
+  strength: 1.6
+smooth:
+  value: 0.6
+hcm:
+  value: 230

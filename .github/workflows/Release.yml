@@ -58,13 +58,14 @@ jobs:
       - name: Publish to CurseForge, Modrinth
         uses: Kir-Antipov/mc-publish@v3.3
         with:
-          name: Create-LabPBR v${{ github.run_number }}
+          name: Create-PBR v${{ github.run_number }}
           version: v${{ github.run_number }}
           version-type: beta
           changelog: "###Release v${{ github.run_number }}"
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           modrinth-id: CFeoJnHX
           modrinth-featured: true
+          modrinth-loaders: minecraft
           modrinth-files-primary: Create-LabPBR-v${{ github.run_number }}.zip
           modrinth-files-secondary: Create-LabPBR-WoodTracks-v${{ github.run_number }}.zip
           curseforge-token: ${{ secrets.CF_API_TOKEN }}
@@ -76,3 +77,5 @@ jobs:
           files: |
             Create-LabPBR-v${{ github.run_number }}.zip
             Create-LabPBR-WoodTracks-v${{ github.run_number }}.zip
+          dependencies: |
+            create(optional){modrinth:LNytGWDc}
